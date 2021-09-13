@@ -38,9 +38,7 @@ const display = (character) => {
         <li class="card">
             <h2 class="card-title">${starWars.name}</h2>
         </li>
-    `
-        )
-        .join('');
+    `).join('');
     ulContainer.innerHTML = HTMLString;
 };
 
